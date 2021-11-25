@@ -26,8 +26,6 @@ from models.GradientBoosting import gb_param_selector
 import home
 import eda
 import train_model
-import result
-import conclusion
 
 local_css("style.css")
 
