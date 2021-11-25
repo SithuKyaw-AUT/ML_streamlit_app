@@ -1,10 +1,7 @@
 import streamlit as st
 
 def home():
-    pweb = """<a href='http://andymcdonald.scot' target="_blank">http://andymcdonald.scot</a>"""
     sm_li = """<a href='https://www.linkedin.com/in/sithu-kyaw-66523334/' target="_blank"><img src='https://cdn.exclaimer.com/Handbook%20Images/linkedin-icon_32x32.png'></a>"""
-    sm_tw = """<a href='https://twitter.com/geoandymcd' target="_blank"><img src='https://cdn.exclaimer.com/Handbook%20Images/twitter-icon_32x32.png'></a>"""
-    sm_med = """<a href='https://medium.com/@andymcdonaldgeo/' target="_blank"><img src='https://cdn.exclaimer.com/Handbook%20Images/Medium_32.png'></a>"""
 
     st.title('A Machine Learning Classifier - Ver 0.1')
     st.write('### Created by Sithu Kyaw',f'{sm_li}', unsafe_allow_html=True)
@@ -25,6 +22,6 @@ def home():
 
     st.write('\n')
     st.write('### Source Code')
-    githublink = """<a href='https://github.com/SithuKyaw-AUT/Interactive-machine-learning-app' target="_blank">https://github.com/SithuKyaw-AUT/Interactive-machine-learning-app</a>"""
+    githublink = """<a href='https://github.com/SithuKyaw-AUT/ML_streamlit_app' target="_blank">https://github.com/SithuKyaw-AUT/ML_streamlit_app</a>"""
     st.write(f'\n\nSource code at the GitHub Repo: {githublink}. \n\nMost welcome for the feedback and suggestions.', unsafe_allow_html=True)
 
