@@ -8,7 +8,7 @@ def home():
 
     st.title('A Machine Learning Classifier - Ver 0.1')
     st.write('### Created by Sithu Kyaw',f'{sm_li}', unsafe_allow_html=True)
-    st.write('''This app is designed by using Python and Streamlit to compare and contrast of the accuracy of the Machine Learning Classifiers.''')
+    st.write('''This app is designed by using Python and Streamlit to build the Machine Learning Classifiers.''')
     st.write('To begin using the app, sample datasets can be used or you can load your \'.csv\' file using the file upload option on the sidebar. Once you have done this, you can navigate to the relevant tools using the Navigation menu.')
     st.write('\n')
     st.write('### Business Problem')
