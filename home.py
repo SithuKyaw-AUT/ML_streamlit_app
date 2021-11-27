@@ -1,7 +1,7 @@
 import streamlit as st
 
 def home():
-    sm_li = """<a href='https://www.linkedin.com/in/sithu-kyaw-66523334/' target="_blank"><img src='https://cdn.exclaimer.com/Handbook%20Images/linkedin-icon_32x32.png'></a>"""
+    sm_li = """<a href='https://www.linkedin.com/in/sithu-kyaw/' target="_blank"><img src='https://cdn.exclaimer.com/Handbook%20Images/linkedin-icon_32x32.png'></a>"""
 
     st.title('A Machine Learning Classifier - Ver 0.1')
     st.write('### Created by Sithu Kyaw',f'{sm_li}', unsafe_allow_html=True)
