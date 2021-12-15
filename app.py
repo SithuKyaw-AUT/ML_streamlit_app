@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 from load_css import local_css
 
+import sklearn
 from sklearn import datasets
 
 # Models import
